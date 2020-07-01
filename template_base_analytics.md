@@ -29,3 +29,12 @@ plt.show()
 
 ## 
 ## DataFrame
+DataFrameをdfとして渡す
+```
+import pandas as pd
+
+# 欠損値を確認
+print(df.isnull().sum())
+# 要約統計量を算出
+print(df.describe())
+```
